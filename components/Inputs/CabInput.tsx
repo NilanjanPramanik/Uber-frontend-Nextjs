@@ -51,7 +51,7 @@ const CabInput: React.FC<IParams> = ({
         />
         <div className="flex flex-col">
           <div className="flex items-center gap-2">
-            <h3 className="font-semibold text-lg">{title}</h3>
+            <h3 className="font-semibold text-base sm:text-lg">{title}</h3>
             <div className="flex items-center text-sm text-stone-500 gap-1">
               <BsPersonFill size={16} />
               {passenger}
@@ -65,7 +65,7 @@ const CabInput: React.FC<IParams> = ({
           </span>
         </div>
       </div>
-      <div className="flex flex-col items-end pr-4">
+      <div className="flex flex-col items-end pr-2 md:pr-4">
         <div className="font-semibold">₹ {totalPrice}</div>
         <div className="text-sm font-light text-stone-500 line-through">{totalPrice + 40}</div>
       </div>
