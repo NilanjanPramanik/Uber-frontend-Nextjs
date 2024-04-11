@@ -2,32 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.geoapify-autocomplete-input{
+  border: none !important;
+  outline: none;
+  background: transparent !important;
+  font-size: 16px !important;
+}
+.geoapify-autocomplete-items {
+  top: 140% !important;
+  left: -48px !important;
+  border: none !important;
+  box-shadow: 0 1px 10px 1px #c5c5c5 !important;
+  border-radius: 8px !important;
+}
+.geoapify-autocomplete-item{
+  padding-left: 15px !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.geoapify-close-button {
+  display: none !important;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.leaflet-popup-close-button {
+  display: none !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* .leaflet-popup-content {
+  text-align: center !important;
+} */
+
+.leaflet-routing-container {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
 }

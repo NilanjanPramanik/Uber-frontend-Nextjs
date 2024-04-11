@@ -1,0 +1,110 @@
+{
+  "annotations": {
+    "DMS": {
+      "lat": "22\u00b0 28' 9.03576'' N",
+      "lng": "88\u00b0 18' 11.87172'' E"
+    },
+    "MGRS": "45QXE3408885342",
+    "Maidenhead": "NL42dl62jo",
+    "Mercator": {
+      "x": 9829878.14,
+      "y": 2551625.714
+    },
+    "OSM": {
+      "edit_url": "https://www.openstreetmap.org/edit?way=992598721#map=16/22.46918/88.30330",
+      "note_url": "https://www.openstreetmap.org/note/new#map=16/22.46918/88.30330&layers=N",
+      "url": "https://www.openstreetmap.org/?mlat=22.46918&mlon=88.30330#map=16/22.46918/88.30330"
+    },
+    "UN_M49": {
+      "regions": {
+        "ASIA": "142",
+        "IN": "356",
+        "SOUTHERN_ASIA": "034",
+        "WORLD": "001"
+      },
+      "statistical_groupings": [
+        "LEDC"
+      ]
+    },
+    "callingcode": 91,
+    "currency": {
+      "alternate_symbols": [
+        "Rs",
+        "\u09f3",
+        "\u0af1",
+        "\u0bf9",
+        "\u0930\u0941",
+        "\u20a8"
+      ],
+      "decimal_mark": ".",
+      "html_entity": "&#x20b9;",
+      "iso_code": "INR",
+      "iso_numeric": "356",
+      "name": "Indian Rupee",
+      "smallest_denomination": 50,
+      "subunit": "Paisa",
+      "subunit_to_unit": 100,
+      "symbol": "\u20b9",
+      "symbol_first": 1,
+      "thousands_separator": ","
+    },
+    "flag": "\ud83c\uddee\ud83c\uddf3",
+    "geohash": "tgyzc6kkryp554q0zsd0",
+    "qibla": 278.3,
+    "roadinfo": {
+      "drive_on": "left",
+      "road": "unnamed road",
+      "road_type": "residential",
+      "speed_in": "km/h"
+    },
+    "timezone": {
+      "name": "Asia/Kolkata",
+      "now_in_dst": 0,
+      "offset_sec": 19800,
+      "offset_string": "+0530",
+      "short_name": "IST"
+    },
+    "what3words": {
+      "words": "excavate.mobile.between"
+    }
+  },
+  "bounds": {
+    "northeast": {
+      "lat": 22.4698368,
+      "lng": 88.303564
+    },
+    "southwest": {
+      "lat": 22.4691138,
+      "lng": 88.3032493
+    }
+  },
+  "components": {
+    "ISO_3166-1_alpha-2": "IN",
+    "ISO_3166-1_alpha-3": "IND",
+    "ISO_3166-2": [
+      "IN-WB"
+    ],
+    "_category": "road",
+    "_normalized_city": "Kolkata",
+    "_type": "road",
+    "city": "Kolkata",
+    "continent": "Asia",
+    "country": "India",
+    "country_code": "in",
+    "postcode": "700063",
+    "road": "unnamed road",
+    "road_type": "residential",
+    "state": "West Bengal",
+    "state_code": "WB",
+    "state_district": "Kolkata District"
+  },
+  "confidence": 9,
+  "distance_from_q": {
+    "meters": 20
+  },
+  "formatted": "unnamed road, Kolkata District, Kolkata - 700063, West Bengal, India",
+  "geometry": {
+    "lat": 22.4691766,
+    "lng": 88.3032977
+  }
+}
